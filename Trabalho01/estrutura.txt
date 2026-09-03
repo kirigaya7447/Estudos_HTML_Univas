@@ -1,0 +1,37 @@
+Erros iniciais do W3C:
+
+Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+From line 94, column 5; to line 94, column 13
+
+ion>↩↩    <section>↩     
+
+Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 86, column 9; to line 86, column 12
+
+>↩        <h1>SOBRE 
+
+Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 38, column 9; to line 38, column 12
+
+>↩        <h1>Conteú
+
+Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 47, column 9; to line 47, column 12
+
+>↩        <h1>DESTAQ
+
+Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 76, column 9; to line 76, column 12
+
+>↩        <h1>Catego
+
+Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 31, column 9; to line 31, column 12
+
+>↩        <h1>Tecnol
