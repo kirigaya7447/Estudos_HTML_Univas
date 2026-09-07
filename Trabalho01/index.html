@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho01</title>
 </head>
+
+<!-- A estrutura foi baseada em separação por "seções", precisei colocar divs para o validador do HTML interpretar corretamente a página,
+ mas além da separação po seções coloquei nav, footer e o heading para a página ficar bem ajustada e separada.-->
 
 <body>
     <header>
@@ -14,96 +17,125 @@
     </header>
 
     <nav>
-        <a href="#">[Início]</a>
-        
-        <a href="#">[Tecnologia]</a>
-        
-        <a href="#">[Programação]</a>
-        
-        <a href="#">[Segurança]</a>
-        
-        <a href="#">[Sobre]</a>
-        
+        <a href="#tecnologia-futuro">[Início]</a>
+
+        <a href="#tecnologia-futuro">[Tecnologia]</a>
+
+        <a href="#conteudos-recentes">[Programação]</a>
+
+        <a href="#conteudos-recentes">[Segurança]</a>
+
+        <a href="#rodape">[Sobre]</a>
+
     </nav>
 
     <section>
-        <img src="sterco.jpg" alt="Tony Stark dentro da amradura">
-        <h1>Tecnologia para transformar o futuro</h1>
-        <h2>A tecnologia está presente em praticamente todos os
-            aspectos da sociedade. Compreender suas possibilidades
-            é essencial para acompanhar as transformações digitais.</h2>
-    </section>
-
-    <section>
-        <h1>Conteúdos recentes</h1>
-        <ul>
-            <li>HTML semântico</li>
-            <li>Introdução ao CSS</li>
-            <li>Segurança na Web</li>
-        </ul>
-    </section>
-
-    <section>
-        <h1>DESTAQUES</h1>
-        <div>
-            <h2>Artigo 1 - Inteligência Artificial</h2>
-            <h3>A inteligência artificial está transformando a maneira
-                como pessoas e empresas utilizam a tecnologia.</h3>
-
-            <a href="#">[Leia o artigo]</a>
-            
-        </div>
-
-        <div>
-            <h2>Artigo 2 - Desenvolvimento Web</h2>
-            <h3>A Web permite criar aplicações acessíveis a milhões
-                de pessoas utilizando tecnologias abertas.</h3>
-
-            <a href="#">[Conheça o desenvolvimento Web]</a>
-        </div>
-
-        <div>
-            <h2>Artigo 3 - Segurança da Informação</h2>
-            <h3>Proteger informações é uma responsabilidade fundamental
-                em um mundo cada vez mais conectado.</h3>
-
-            <a href="#">[Saiba mais sobre segurança]</a>
-            
+        <div id="tecnologia-futuro">
+            <img src="Imagens/sterco.jpg" alt="Tony Stark dentro da armadura">
+            <h1 headingoffset="1">Tecnologia para transformar o futuro</h1>
+            <p>A tecnologia está presente em praticamente todos os
+                aspectos da sociedade. Compreender suas possibilidades
+                é essencial para acompanhar as transformações digitais.</p>
         </div>
     </section>
 
     <section>
-        <h1>Categorias</h1>
-        <ul>
-            <li>Desenvolvimento</li>
-            <li>Inteligência Artificial</li>
-            <li>Segurança</li>
-        </ul>
-
+        <div id="conteudos-recentes">
+            <h1 headingoffset="2">Conteúdos recentes</h1>
+            <ul>
+                <li>
+                    <p>HTML semântico</p>
+                    <a href="https://www.alura.com.br/curso-online-html-css-praticando-html-css" target="_blank">
+                        <img src="Imagens/HTML_semantico.jpeg" alt="Notebook com códigos">
+                    </a>
+                </li>
+                <li>
+                    <p>Introdução ao CSS</p>
+                    <a href="https://www.alura.com.br/curso-online-sass-css-estilizando-site" target="_blank">
+                        <img src="Imagens/css.jpg" alt="CSS">
+                    </a>
+                </li>
+                <li>
+                    <p>Segurança na Web</p>
+                    <a href="https://www.alura.com.br/curso-online-seguranca-rede-proxy-reverso-ssh-dns"
+                        target="_blank">
+                        <img src="Imagens/cadeado.jpeg" alt="Um cadeado representando segurança">
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <section>
-        <h1>SOBRE O PROJETO</h1>
-        <p>O Conecta Tecnologia foi criado para compartilhar
-            conhecimentos sobre tecnologia, programação e inovação.
+        <div id="destaques">
+            <h1 headingoffset="3">DESTAQUES</h1>
+            <div id="destaque-1">
+                <p>Artigo 1 - Inteligência Artificial</p>
+                <p>A inteligência artificial está transformando a maneira
+                    como pessoas e empresas utilizam a tecnologia.</p>
 
-            Nosso objetivo é apresentar conteúdos de forma clara,
-            organizada e acessível para diferentes públicos.</p>
+                <a href="#">[Leia o artigo]</a>
+
+            </div>
+
+            <div id="destaque-2">
+                <p>Artigo 2 - Desenvolvimento Web</p>
+                <p>A Web permite criar aplicações acessíveis a milhões
+                    de pessoas utilizando <a href="https://opensource.com/resources/what-open-source"
+                        target="_blank">tecnologias abertas.</a></p>
+
+                <a href="#">[Conheça o desenvolvimento Web]</a>
+            </div>
+
+            <div id="destaque-3">
+                <p>Artigo 3 - Segurança da Informação</p>
+                <p>Proteger informações é uma responsabilidade fundamental
+                    em um mundo cada vez mais conectado.</p>
+
+                <a href="#">[Saiba mais sobre segurança]</a>
+
+            </div>
+        </div>
     </section>
 
     <section>
-        <footer>
-            <small>&copy; Conecta Tecnologia © 2026</small>
+        <div id="categorias">
+            <h1 headingoffset="4">Categorias</h1>
+            <ul>
+                <li>Desenvolvimento</li>
+                <li>Inteligência Artificial</li>
+                <li>Segurança</li>
+            </ul>
 
-            <a href="#">[Contato]</a>
-            
-            <a href="#">[Política de Privacidade]</a>
-            
-            <a href="#">[Acessibilidade]</a>
-            
+        </div>
+    </section>
 
-            <small>Última atualização: 10 de setembro de 2026</small>
-        </footer>
+    <section>
+        <div id="sobre">
+            <h1 headingoffset="5">SOBRE O PROJETO</h1>
+            <p>O Conecta Tecnologia foi criado para compartilhar
+                conhecimentos sobre tecnologia, programação e inovação.
+
+                Nosso objetivo é apresentar conteúdos de forma clara,
+                organizada e acessível para diferentes públicos.</p>
+        </div>
+    </section>
+
+    <section>
+        <div id="rodape" headingoffset="5">
+            <footer>
+                <h1>&copy; Conecta Tecnologia © 2026</h1>
+
+                <a href="#">[Contato]</a>
+
+                <a href="#">[Política de Privacidade]</a>
+
+                <a href="#">[Acessibilidade]</a>
+
+
+                <small>Última atualização: 10 de setembro de 2026</small>
+            </footer>
+        </div>
     </section>
 </body>
 

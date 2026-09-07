@@ -4,34 +4,40 @@ Warning: Section lacks heading. Consider using h2-h6 elements to add identifying
 
 From line 94, column 5; to line 94, column 13
 
-ion>↩↩    <section>↩     
+Resposta: Coloquei um H2 ao invés de um small no texto <h2>&copy; Conecta Tecnologia © 2026</h2>
+_________________________________________________________________________________________________________________________________________________
 
 Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
 
 From line 86, column 9; to line 86, column 12
 
->↩        <h1>SOBRE 
+Resposta: estruturei os headingoffset e retirei os locais que tinham h2 que estavam atrapalhando o contador
+_________________________________________________________________________________________________________________________________________________
 
 Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
 
 From line 38, column 9; to line 38, column 12
 
->↩        <h1>Conteú
+Resposta: estruturei os headingoffset e retirei os locais que tinham h2 que estavam atrapalhando o contador
+_________________________________________________________________________________________________________________________________________________
 
 Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
 
 From line 47, column 9; to line 47, column 12
 
->↩        <h1>DESTAQ
+Resposta: estruturei os headingoffset e retirei os locais que tinham h2 que estavam atrapalhando o contador
+_________________________________________________________________________________________________________________________________________________
 
 Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
 
 From line 76, column 9; to line 76, column 12
 
->↩        <h1>Catego
+Resposta: estruturei os headingoffset e retirei os locais que tinham h2 que estavam atrapalhando o contador
+_________________________________________________________________________________________________________________________________________________
 
 Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).
 
 From line 31, column 9; to line 31, column 12
 
->↩        <h1>Tecnol
+Resposta: estruturei os headingoffset e retirei os locais que tinham h2 que estavam atrapalhando o contador
+_________________________________________________________________________________________________________________________________________________
