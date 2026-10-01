@@ -1,0 +1,27 @@
+Estrutura, Semântica, Acessibilidade, ARIA
+ou Boas práticas
+
+1 - Ausência da indicação do formato(UTF-8) e da língua: pt-BR - Acessibilidade: Pois, sem a identificação da língua 
+as acentuações não funcionam adequadamente;
+
+2 - Estruturação feita inteiramente por divs - Estrutura: A página não fica devidamente formatada e estruturada;
+
+3 - Uso repetitivo da tag H1 - Semântica: O título H1 é único na página;
+
+4 - Ausência da tag nav - Estrutura/Acessibilidade: Estruturação e auxílio para os leitores de tela;
+
+5 - Ausência da tag session - Estrutura/Acessibilidade: Estruturação e separação das partes da página;
+
+6 - Ausência da tag article - Estrutura/Acessibilidade: Estruturação e separação dos temas da página;
+
+7 - Ausência da tag aside - Estrutura/Acessibilidade: Estruturação e organização do layout;
+
+8 - Utilização do span como "button" - Semântica: Não utilizou o atributo adequado;
+
+9 - Falta de IDs para identificação única na página - Boas práticas: Facilitação na identificação e customização;
+
+10 - Pular diretamente do título h1 para h4 - Semântica: Deveria ser utilizado um h2 antes para a estruturação dos títulos;
+
+11 - Utilização do span como "button" - Semântica: Não utilizou o atributo adequado;
+
+12 - Ausência da tag footer - Estrutura/Acessibilidade: Estruturação e separação das partes da página;

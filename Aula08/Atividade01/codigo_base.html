@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Blog</title>
+  </head>
+  <body>
+    <div class="header">
+      <img src="logo.png" />
+      <div class="menu">
+        <a href="index.html">Início</a> | <a href="artigos.html">Artigos</a> |
+        <a href="contato.html">Contato</a>
+      </div>
+    </div>
+    <div class="conteudo">
+      <h1>Café com Código</h1>
+      <h1>Últimos artigos</h1>
+      <div class="post">
+        <h4>Por que usar HTML semântico?</h4>
+        <b>12/09/2026</b>
+        <p>
+          Descubra como a semântica melhora a acessibilidade. Para ler o artigo
+          completo <a href="artigo1.html">clique aqui</a>.
+        </p>
+      </div>
+      <div class="post">
+        <h4>Guia rápido de atributos ARIA</h4>
+        <b>05/09/2026</b>
+        <img src="aria.jpg" alt="imagem" />
+        <br /><br />
+        <span class="botao" onclick="abrirArtigo()">Ler mais</span>
+      </div>
+    </div>
+    <div class="lateral" aria-label="Barra lateral">
+      <h2>Receba novidades</h2>
+      <input type="email" placeholder="Seu e-mail" />
+      <div role="button" onclick="assinar()">Assinar</div>
+    </div>
+    3
+    <a
+      href="https://instagram.com/cafecomcodigo"
+      target="_blank"
+      aria-hidden="true"
+    >
+      <img src="insta.png" />
+    </a>
+    <div class="footer">
+      <font size="2">© 2026 Café com Código</font>
+    </div>
+  </body>
+</html>
